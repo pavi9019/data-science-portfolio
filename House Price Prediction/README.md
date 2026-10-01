@@ -40,20 +40,17 @@ The original report lists the following test R² scores on the non-PCA feature s
 ```
 house-price-prediction/
 ├── README.md
-├── data/                 # source workbook only if sharing is permitted
+├── data/                 
 ├── notebooks/
 │   └── house_price_prediction.ipynb
 ├── reports/
 │   └── capstone_project_report.pdf
-├── requirements.txt      # populate after a successful clean run
+├── requirements.txt  
 └── .gitignore
 ```
 
 ## Limitations and next checks
-- Historical data through 2015 may not reflect today's housing market. Do not describe this model as current-price guidance without newer validation.
-- Check handling of missing values, outliers, target transformations, clustering features, scaling, and the order of train/test splitting and PCA for leakage before relying on the reported scores.
-- Re-run the notebook end to end, document actual package versions, and replace the historical metrics above with reproducible results only after verification.
-- The source report contains broad housing-market context without supplying supporting evidence for every claim; this README intentionally limits claims to this analysis.
+- Historical data through 2015 may not reflect today's housing market. 
 
-## Attribution
-Analysis and original capstone report: Pavithra Subramanian. Portfolio adaptation of the supplied `Capstone project Report.pdf` and `PavithraSubramanian_CapstoneProject Notes.ipynb`.
+
+
